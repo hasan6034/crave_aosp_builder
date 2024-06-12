@@ -27,7 +27,7 @@ on:
       BUILD_DIFFERENT_ROM:
         description: "Command to initialize a different 'repo' project:"
         required: false
-        default: "repo init -u https://github.com/xdroid-oss/xd_manifest -b fourteen --git-lfs"
+        default: "echo 'Build Starting!'"
       REMOVALS:
         description: "Folders to be removed before syncing:"
         required: false
